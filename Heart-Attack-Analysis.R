@@ -544,18 +544,3 @@ wilcox.test(Cholesterol~ChanceofHeartAttack)
 
 
 
-
-
-
-
-
-
-# Check correlations
-pairs(ha_cleaned)
-
-
-agesex <- heart_attack(age, sex)
-
-
-
-
